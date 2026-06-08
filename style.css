@@ -1,0 +1,34 @@
+.counter-section{
+    text-align:center;
+}
+
+.counter-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+    margin-top:50px;
+}
+
+.counter-card{
+    background:rgba(255,255,255,.05);
+    backdrop-filter:blur(12px);
+    padding:40px;
+    border-radius:25px;
+    box-shadow:0 0 30px rgba(255,92,141,.15);
+    transition:.4s;
+}
+
+.counter-card:hover{
+    transform:translateY(-10px);
+}
+
+.counter-card h3{
+    font-size:3rem;
+    color:#ff5c8d;
+    margin-bottom:10px;
+}
+
+.counter-card p{
+    color:#ffdce8;
+    font-size:1.1rem;
+}
